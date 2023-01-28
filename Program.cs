@@ -119,3 +119,13 @@ Console.WriteLine("Указанное число является нечетны
 //Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
+
+Console.WriteLine("Введите любое число : ");
+string strNumber7 = Console.ReadLine();
+int number7 = Convert.ToInt32(strNumber7);
+int count = 0;
+while (count < number7)
+{
+    Console.WriteLine(count);
+    count = count+2; 
+}
