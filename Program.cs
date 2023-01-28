@@ -2,28 +2,28 @@
 
 Console.Write ("Введите чило 1   ");
 string strNumber1 = Console.ReadLine(); 
-int number1 = Convert.ToInt32(strNumber1);
+int Number1 = Convert.ToInt32(strNumber1);
 Console.Write("Введите чило 2   ");
 string strNumber2 = Console.ReadLine(); 
 int number2 = Convert.ToInt32(strNumber2);
-if(number1>number2)
+if(Number1>number2)
 {
-Console.WriteLine("max =" + number1);
+Console.WriteLine("max =" + Number1);
 Console.WriteLine("min =" + number2);
 }
-else if (number2>number1)
+else if (number2>Number1)
 {
 Console.WriteLine("max =" + number2);
-Console.WriteLine("min =" + number1);
+Console.WriteLine("min =" + Number1);
 }
 else
 {
-Console.WriteLine("max = min =" + number1);
+Console.WriteLine("max = min =" + Number1);
 }
 //Напишите программу, которая на входе принимает три числа, а на выходе выдает максимальное
 //Вариант1
 Console.WriteLine("Введите число 1   ");
-string strNumber3 = Console.ReadLine(); 
+string strNumber1 = Console.ReadLine(); 
 int number3 = Convert.ToInt32(strNumber3);
 Console.WriteLine("Введите число 2   ");
 string strNumber4 = Console.ReadLine(); 
