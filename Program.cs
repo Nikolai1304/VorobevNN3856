@@ -1,17 +1,11 @@
 ﻿//Напишите программу, которая на входе принимает два числа, а на выходе выдает, какое большее, а какое меньшее
 
 Console.Write ("Введите чило 1   ");
-
 string strNumber1 = Console.ReadLine(); 
-
 int number1 = Convert.ToInt32(strNumber1);
-
 Console.Write("Введите чило 2   ");
-
 string strNumber2 = Console.ReadLine(); 
-
 int number2 = Convert.ToInt32(strNumber2);
-
 if(number1>number2)
 {
 Console.WriteLine("max =" + number1);
@@ -26,22 +20,17 @@ else
 {
 Console.WriteLine("max = min =" + number1);
 }
-
 //Напишите программу, которая на входе принимает три числа, а на выходе выдает максимальное
 //Вариант1
-
 Console.WriteLine("Введите число 1   ");
 string strNumber3 = Console.ReadLine(); 
 int number3 = Convert.ToInt32(strNumber3);
-
 Console.WriteLine("Введите число 2   ");
 string strNumber4 = Console.ReadLine(); 
 int number4 = Convert.ToInt32(strNumber4);
-
 Console.WriteLine("Введите число 3   ");
 string strNumber5 = Console.ReadLine(); 
 int number5 = Convert.ToInt32(strNumber5);
-
 if(number3>number4 & number3>number5)
 {
 Console.WriteLine("max =" + number3);
@@ -114,7 +103,6 @@ else
 {
 Console.WriteLine("Указанное число является нечетным");
 }
-
 
 //Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 //5 -> 2, 4
