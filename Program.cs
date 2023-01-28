@@ -23,7 +23,7 @@ Console.WriteLine("max = min =" + Number1);
 //Напишите программу, которая на входе принимает три числа, а на выходе выдает максимальное
 //Вариант1
 Console.WriteLine("Введите число 1   ");
-string strNumber1 = Console.ReadLine(); 
+string strNumber3 = Console.ReadLine(); 
 int number3 = Convert.ToInt32(strNumber3);
 Console.WriteLine("Введите число 2   ");
 string strNumber4 = Console.ReadLine(); 
@@ -48,7 +48,6 @@ else if(number3==number4 & number3>number5)
 {
 Console.WriteLine("max =" + number3);
 }
-
 else if(number3==number5 & number3>number4)
 {
 Console.WriteLine("max =" + number3);
@@ -82,8 +81,8 @@ string strNum3 = Console.ReadLine();
 int num3 = Convert.ToInt32(strNum3);
 
 int max = num1;
-if (num2>num1) max = num2;
-if (num3>num2) max = num3;
+if (num2>max) max = num2;
+if (num3>max) max = num3;
 Console.WriteLine("max =" + max);
 
 
@@ -112,7 +111,7 @@ Console.WriteLine("Введите любое число : ");
 string strNumber7 = Console.ReadLine();
 int number7 = Convert.ToInt32(strNumber7);
 int count = 0;
-while (count < number7)
+while (count <= number7)
 {
     Console.WriteLine(count);
     count = count+2; 
